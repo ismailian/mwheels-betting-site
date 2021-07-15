@@ -1,0 +1,8 @@
+RewriteEngine On
+  RewriteBase /
+
+# Forbid Access To Directories:
+  Options -Indexes
+
+# Custom 404 Page:
+  ErrorDocument 404 /404.php
